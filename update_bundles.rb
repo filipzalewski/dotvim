@@ -10,7 +10,7 @@ git_bundles = [
 #  "git://github.com/tpope/vim-git.git",
 #  "git://github.com/tpope/vim-haml.git",
 #  "git://github.com/tpope/vim-markdown.git",
-#  "git://github.com/tpope/vim-rails.git",
+   "git://github.com/tpope/vim-rails.git",
 #  "git://github.com/tpope/vim-repeat.git",
 #  "git://github.com/tpope/vim-surround.git",
 #  "git://github.com/tpope/vim-vividchalk.git",
@@ -24,7 +24,6 @@ git_bundles = [
 
 vim_org_scripts = [
   ["IndexedSearch", "7062",  "plugin"],
-  ["gist",          "12732", "plugin"],
   ["jquery",        "12107", "syntax"],
 ]
 
