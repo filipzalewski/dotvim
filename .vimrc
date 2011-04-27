@@ -1,14 +1,17 @@
+" Needed on some linux distros
+" see http://www.adamlowe.me/2009/12/vim-destroys...
+"
+filetype off
 call pathogen#runtime_append_all_bundles()
+call pathogen#helptags()
 
 syntax on
-colorscheme rubyblue 
+:colorscheme default
+set background=light
 
-set gfn=ProggyCleanTT\ 12
+:filetype plugin on
 
-autocmd VimEnter * NERDTree
-
-set softtabstop=2
-set shiftwidth=2
-set expandtab
-
-set number
+:set expandtab
+:set tabstop=2
+:set shiftwidth=2
+:set softtabstop=2
