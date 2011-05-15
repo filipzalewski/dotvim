@@ -25,6 +25,7 @@ git_bundles = [
 vim_org_scripts = [
   ["IndexedSearch", "7062",  "plugin"],
   ["jquery",        "12107", "syntax"],
+  ["SyntaxAttr",    "1135", "plugin"],
 ]
 
 require 'fileutils'
