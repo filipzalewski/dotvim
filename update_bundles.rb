@@ -4,13 +4,15 @@ git_bundles = [
 #  "git://github.com/astashov/vim-ruby-debugger.git",
   "git://github.com/msanders/snipmate.vim.git",
   "git://github.com/scrooloose/nerdtree.git",
+  "git://github.com/vim-scripts/c.vim",
+  "git://github.com/slack/vim-bufexplorer",
 #  "git://github.com/timcharper/textile.vim.git",
 #  "git://github.com/tpope/vim-cucumber.git",
 #  "git://github.com/tpope/vim-fugitive.git",
 #  "git://github.com/tpope/vim-git.git",
 #  "git://github.com/tpope/vim-haml.git",
 #  "git://github.com/tpope/vim-markdown.git",
-   "git://github.com/tpope/vim-rails.git",
+#  "git://github.com/tpope/vim-rails.git",
 #  "git://github.com/tpope/vim-repeat.git",
 #  "git://github.com/tpope/vim-surround.git",
 #  "git://github.com/tpope/vim-vividchalk.git",
@@ -19,12 +21,11 @@ git_bundles = [
 #  "git://github.com/tsaleh/vim-supertab.git",
 #  "git://github.com/tsaleh/vim-tcomment.git",
 #  "git://github.com/vim-ruby/vim-ruby.git",
-  "git://github.com/slack/vim-bufexplorer",
 ]
 
 vim_org_scripts = [
   ["IndexedSearch", "7062",  "plugin"],
-  ["jquery",        "12107", "syntax"],
+  #["jquery",        "12107", "syntax"],
   ["SyntaxAttr",    "1135", "plugin"],
 ]
 
