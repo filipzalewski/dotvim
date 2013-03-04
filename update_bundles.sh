@@ -4,10 +4,11 @@ vim_bundle_git=(
         "git://github.com/slack/vim-bufexplorer"
         "git://github.com/msanders/snipmate.vim.git"
         "git://github.com/scrooloose/nerdtree.git"
-        "git://github.com/vim-scripts/c.vim"
+#        "git://github.com/vim-scripts/c.vim"
+        "http://github.com/tpope/vim-surround"
 )
 
-bundles_dir=./bundles
+bundles_dir=./bundle
 
 echo "Cleaning up $bundles_dir"
 rm -rf $bundles_dir/*
