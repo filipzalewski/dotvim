@@ -6,6 +6,7 @@ vim_bundle_git=(
         "git://github.com/scrooloose/nerdtree.git"
 #        "git://github.com/vim-scripts/c.vim"
         "http://github.com/tpope/vim-surround"
+        "http://github.com/kien/ctrlp.vim.git"
 )
 
 bundles_dir=./bundle
