@@ -2,9 +2,11 @@
 
 vim_bundle_git=(
         "git://github.com/slack/vim-bufexplorer"
-        "git://github.com/msanders/snipmate.vim.git"
+        "git://github.com/tomtom/tlib_vim.git"
+        "git://github.com/MarcWeber/vim-addon-mw-utils.git"
+        "git://github.com/garbas/vim-snipmate.git"
+        "git://github.com/honza/vim-snippets.git"
         "git://github.com/scrooloose/nerdtree.git"
-#        "git://github.com/vim-scripts/c.vim"
         "http://github.com/tpope/vim-surround"
         "http://github.com/kien/ctrlp.vim.git"
 )
