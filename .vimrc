@@ -2,16 +2,17 @@
 " see http://www.adamlowe.me/2009/12/vim-destroys...
 "
 filetype off
-call pathogen#runtime_append_all_bundles()
-call pathogen#helptags()
+execute pathogen#infect()
 
 syntax on
-:colorscheme default
-set background=light
+:colorscheme mango 
+set background=dark
 
 :filetype plugin on
 
 :set relativenumber 
+
+set autoindent
 
 :set expandtab
 :set tabstop=2
@@ -27,3 +28,18 @@ map <C-j> <C-W>j
 map <C-k> <C-W>k
 map <C-h> <C-W>h
 map <C-l> <C-W>l
+
+
+set statusline+=%#warningmsg#
+set statusline+=%{SyntasticStatuslineFlag()}
+set statusline+=%*
+
+let g:syntastic_always_populate_loc_list = 1
+let g:syntastic_auto_loc_list = 1
+let g:syntastic_check_on_open = 1
+let g:syntastic_check_on_wq = 0
+let g:syntastic_javascript_checkers = ['eslint']
+
+let g:lexima_enable_basic_rules = 1
+
+" autocmd VimEnter * NERDTree
