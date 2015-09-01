@@ -7,8 +7,11 @@ vim_bundle_git=(
         "git://github.com/garbas/vim-snipmate.git"
         "git://github.com/honza/vim-snippets.git"
         "git://github.com/scrooloose/nerdtree.git"
+        "git://github.com/scrooloose/syntastic.git"
         "http://github.com/tpope/vim-surround"
         "http://github.com/kien/ctrlp.vim.git"
+        "git://github.com/jlanzarotta/bufexplorer.git"
+        "git://github.com/cohama/lexima.vim.git"
 )
 
 bundles_dir=./bundle
