@@ -1,7 +1,6 @@
 #!/bin/bash
 
 vim_bundle_git=(
-        "git://github.com/slack/vim-bufexplorer"
         "git://github.com/tomtom/tlib_vim.git"
         "git://github.com/MarcWeber/vim-addon-mw-utils.git"
         "git://github.com/garbas/vim-snipmate.git"
@@ -11,7 +10,8 @@ vim_bundle_git=(
         "http://github.com/tpope/vim-surround"
         "http://github.com/kien/ctrlp.vim.git"
         "git://github.com/jlanzarotta/bufexplorer.git"
-        "git://github.com/cohama/lexima.vim.git"
+        "https://github.com/bling/vim-airline" 
+        "git://github.com/tpope/vim-fugitive.git"
 )
 
 bundles_dir=./bundle
